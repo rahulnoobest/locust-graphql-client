@@ -1,2 +1,2 @@
-graphqlclient
+-e git+https://github.com/alaptseu/python-graphql-client.git@master#egg=graphqlclient
 locust
