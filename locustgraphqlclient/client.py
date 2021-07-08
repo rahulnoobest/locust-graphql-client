@@ -1,7 +1,7 @@
 import time
 import json
 import urllib
-from locust import Locust, events
+from locust import User, events
 from graphqlclient import GraphQLClient
 
 
@@ -31,7 +31,9 @@ class MeasuredGraphQLClient(GraphQLClient):
         return result
 
 
-class GraphQLLocust(Locust):
+class GraphQLLocust(User):
+    abstract = True
+
     def __init__(self, *args, **kwargs):
         super(GraphQLLocust, self).__init__(*args, **kwargs)
         self.client = MeasuredGraphQLClient(endpoint=self.host)
