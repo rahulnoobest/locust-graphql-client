@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
     name='locust-graphql-client',
     version='0.0.2',
-    packages=['locustgraphqlclient'],
+    packages=['locust-graphql-client'],
     url='https://github.com/rahulnoobest/locust-graphql-client',
     license='Apache License 2.0',
     author='rahulnoobest',
