@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='locust-graphql-client',
+    name='locustgraphqlclient',
     version='0.0.2',
-    packages=['locust-graphql-client'],
-    url='https://github.com/rahulnoobest/locust-graphql-client',
+    packages=['locustgraphqlclient'],
+    url='https://github.com/rahulnoobest/locustgraphqlclient',
     license='Apache License 2.0',
     author='rahulnoobest',
     author_email='',
