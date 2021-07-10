@@ -2,7 +2,7 @@ import time
 import json
 import urllib
 from locust import User, events
-from src.graphqlclient.graphqlclient import GraphQLClient
+from graphqlclient import GraphQLClient
 
 
 class MeasuredGraphQLClient(GraphQLClient):
